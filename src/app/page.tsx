@@ -58,10 +58,10 @@ const Home = () => {
         {flowers.map(flower => (
           <div key={flower.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
             <Image 
-              src={flower.image} 
-              alt={flower.name} 
-              className="w-full h-48 object-cover" 
-              width={500} 
+              src={flower.image}
+              alt={flower.name}
+              className="w-full h-48 object-cover"
+              width={500}
               height={192} // Based on the aspect ratio
             />
             <div className="p-6">
