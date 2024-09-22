@@ -5,9 +5,8 @@ const ContactPage = () => {
           {/* Header */}
           <h2 className="text-5xl font-bold text-green-700 mb-6">Get in Touch</h2>
           <p className="text-lg text-gray-700 mb-10">
-            Are you interested in buying some of our beautiful flowers? We'd love to help! Fill out the form below and we will get back to you with more information.
+             Are you interested in buying some of our beautiful flowers? We&apos;d love to help! Fill out the form below and we will get back to you with more information.
           </p>
-          
           {/* Contact Form */}
           <form className="mt-8 max-w-lg mx-auto space-y-6">
             {/* Name Input */}
@@ -36,7 +35,7 @@ const ContactPage = () => {
                 rows={6}
               />
             </div>
-  
+
             {/* Submit Button */}
             <button
               type="submit"
@@ -49,6 +48,6 @@ const ContactPage = () => {
       </div>
     );
   };
-  
+
   export default ContactPage;
   
