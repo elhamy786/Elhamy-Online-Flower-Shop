@@ -43,6 +43,8 @@ const flowers = [
   },
 ];
 
+import Image from 'next/image';
+
 const Home = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 py-8">
@@ -55,13 +57,13 @@ const Home = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-4">
         {flowers.map(flower => (
           <div key={flower.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img 
-            src={flower.image} 
-            alt={flower.name} 
-            className="w-full h-48 object-cover" 
-            width={500} // Aspect ratio can be set here, but it scales responsively
-            height={192} // Based on the aspect ratio
-             />
+            <Image 
+              src={flower.image} 
+              alt={flower.name} 
+              className="w-full h-48 object-cover" 
+              width={500} 
+              height={192} // Based on the aspect ratio
+            />
             <div className="p-6">
               <h2 className="text-2xl font-bold text-green-600">{flower.name}</h2>
               <p className="text-xl text-gray-800">{flower.price}</p>
