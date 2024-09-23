@@ -4,42 +4,42 @@ const flowers = [
     name: 'Rose',
     price: '$10',
     description: 'Elegant and timeless, perfect for any occasion.',
-    image: '/images/about/flower1.jpg'
+    image: '/images/flower1.jpg'
   },
   {
     id: 2,
     name: 'Tulip',
     price: '$12',
     description: 'Bright and cheerful, ideal for spring celebrations.',
-    image: '/images/about/flower2.jpg'
+    image: '/images/flower2.jpg'
   },
   {
     id: 3,
     name: 'Orchid',
     price: '$20',
     description: 'Exotic and graceful, a unique gift choice.',
-    image: '/images/about/flower3.jpg'
+    image: '/images/flower3.jpg'
   },
   {
     id: 4,
     name: 'Lily',
     price: '$15',
     description: 'Beautiful and fragrant, a symbol of purity.',
-    image: '/images/about/flower4.jpg'
+    image: '/images/flower4.jpg'
   },
   {
     id: 5,
     name: 'Sunflower',
     price: '$8',
     description: 'Bold and sunny, perfect for brightening any room.',
-    image: '/images/about/flower5.jpg'
+    image: '/images/flower5.jpg'
   },
   {
     id: 6,
     name: 'Daisy',
     price: '$7',
     description: 'Simple and charming, a lovely gift for friends.',
-    image: '/images/about/flower6.jpg'
+    image: '/images/flower6.jpg'
   },
 ];
 
